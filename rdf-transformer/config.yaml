@@ -1,20 +1,26 @@
-mapping:
-  - nubbe:code
-  - nubbe:hasSMILE
-  - rdfs:label
-  - rdfs:Class
-  - rdfs:comment
-  - nubbe:hasMolecularMass
-  - nubbe:hasMolecularMass
-  - nubbe:hasMonoisotropicMass
-  - nubbe:has-cLogP
-  - nubbe:hasTPSA
-  - nubbe:numberOfLipinskiViolations
-  - nubbe:numberOfH-bondAcceptors
-  - nubbe:numberOfH-bondDonors
-  - nubbe:numberOfRotableBonds
-  - nubbe:hasMolecularVolume
-  - nubbe:hasCollectionSite
-  - nubbe:hasBiologicalActivity
-  - nubbe:hasOrigin
-  - nubbe:foundInSpecie
+namespaces:
+  nubbeprop: nubbe.db/property/
+  nubbeclass: nubbe.db/class/
+  nubberesource: nubbe.db/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+mappings:
+  nubbeprop:code
+  nubbeprop:hasSMILE
+  rdfs:label
+  rdf:type
+  rdfs:comment
+  nubbeprop:hasMolecularMass
+  nubbeprop:hasMolecularMass
+  nubbeprop:hasMonoisotropicMass
+  nubbeprop:hasCLogP
+  nubbeprop:hasTPSA
+  nubbeprop:numberOfLipinskiViolations
+  nubbeprop:numberOfH-bondAcceptors
+  nubbeprop:numberOfH-bondDonors
+  nubbeprop:numberOfRotableBonds
+  nubbeprop:hasMolecularVolume
+  nubbeprop:hasCollectionSite
+  nubbeprop:hasBiologicalActivity
+  nubbeprop:hasOrigin
+  nubbeprop:hasCollectionSpecie

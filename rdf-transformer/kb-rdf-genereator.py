@@ -1,39 +1,59 @@
-import pandas as pd
-from googleapiclient.discovery import build
-from google_auth_oauthlib.flow import InstalledAppFlow,Flow
-from google.auth.transport.requests import Request
-import os
-import pickle
+import csv, yaml, string
 
-SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
+config = None
+try:
+    with open("./rdf-transformer/config.yaml", 'r') as stream:
+        config = yaml.safe_load(stream)
+except Exception as e:
+    print('Exception when opening config.yaml' + ": %s\n" % e)
 
-# here enter the id of your google sheet
-SAMPLE_SPREADSHEET_ID_input = '1cvZswLiDo3LfhnA7RcS8vFqacx73RGor-OZ_FtvyLE8'
-SAMPLE_RANGE_NAME = 'A1:AA1000'
+file = open("./rdf-transformer/nubbe.csv")
+csvreader = csv.reader(file)
+rows = []
 
-def main():
-    global values_input, service
-    creds = None
-    if os.path.exists('token.pickle'):
-        with open('token.pickle', 'rb') as token:
-            creds = pickle.load(token)
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                'my_json_file.json', SCOPES) # here enter the name of your downloaded JSON file
-            creds = flow.run_local_server(port=0)
-        with open('token.pickle', 'wb') as token:
-            pickle.dump(creds, token)
+# Generating metadata
+for row in csvreader:
+    columnIndx=0
+    for column in row:
+        if(columnIndx != 3 and columnIndx < 14 and row[columnIndx]):
+            rows.append("<" + config['namespaces']['nubberesource'] + row[0] + ">" 
+            + ' <' + config['namespaces'][config['mappings'].split(' ')[columnIndx].split(':')[0]]
+            + config['mappings'].split(' ')[columnIndx].split(':')[1] + '>'
+            + ' "' + row[columnIndx] + '"'
+            + ' .')
+        columnIndx+=1
+file.close()
 
-    service = build('sheets', 'v4', credentials=creds)
+file = open("./rdf-transformer/nubbe.csv")
+csvreader = csv.reader(file)
+# Generating classes
+for row in csvreader:
+    if(row[3]):
+        type = row[3].split(':')[len(row[3].split(':'))-1]
+        if(type == ' -'):
+            type = row[3].split(':')[len(row[3].split(':'))-2]
+        rows.append("<" + config['namespaces']['nubberesource'] + row[0] + ">" 
+        + ' <' + config['namespaces'][config['mappings'].split(' ')[3].split(':')[0]]
+        + config['mappings'].split(' ')[3].split(':')[1] + '>'
+        + ' <' + config['namespaces']['nubberesource'] + type.title().replace(" ", "") + '>'
+        + ' .')
 
-    # Call the Sheets API
-    sheet = service.spreadsheets()
-    result_input = sheet.values().get(spreadsheetId=SAMPLE_SPREADSHEET_ID_input,
-                                range=SAMPLE_RANGE_NAME).execute()
-    values_input = result_input.get('values', [])
+file.close()
+print(rows)
 
-    if not values_input and not values_expansion:
-        print('No data found.')
+file = open("./rdf-transformer/nubbe.csv")
+csvreader = csv.reader(file)
+# Generating classes
+for row in csvreader:
+    if(row[3]):
+        type = row[3].split(':')[len(row[3].split(':'))-1]
+        if(type == ' -'):
+            type = row[3].split(':')[len(row[3].split(':'))-2]
+        rows.append("<" + config['namespaces']['nubberesource'] + row[0] + ">" 
+        + ' <' + config['namespaces'][config['mappings'].split(' ')[3].split(':')[0]]
+        + config['mappings'].split(' ')[3].split(':')[1] + '>'
+        + ' <' + config['namespaces']['nubberesource'] + type.title().replace(" ", "") + '>'
+        + ' .')
+
+file.close()
+print(rows)

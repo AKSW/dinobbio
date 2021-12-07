@@ -1,0 +1,7 @@
+:{class} rdf:type owl:Class ;
+  rdfs:subClassOf :{superClass};
+  rdfs:label "{label}"@en ;
+  rdfs:comment "{comment}"@en ;
+  rdfs:isDefinedBy : ;
+  dct:issued "2021-12-07"^^xsd:date ;
+.
