@@ -1,26 +1,26 @@
 namespaces:
-  nubbeprop: nubbe.db/property/
+  nubbeprop: http://nubbe.db/property/
   nubbeclass: nubbe.db/class/
-  nubberesource: nubbe.db/
+  nubberesource: http://nubbe.db/
   rdfs: http://www.w3.org/2000/01/rdf-schema#
   rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 mappings:
   nubbeprop:code
-  nubbeprop:hasSMILE
+  nubbeprop:smile
   rdfs:label
   rdf:type
   rdfs:comment
-  nubbeprop:hasMolecularMass
-  nubbeprop:hasMolecularMass
-  nubbeprop:hasMonoisotropicMass
-  nubbeprop:hasCLogP
-  nubbeprop:hasTPSA
+  nubbeprop:molecularMass
+  nubbeprop:monoisotropicMass
+  nubbeprop:cLogP
+  nubbeprop:tpsa
   nubbeprop:numberOfLipinskiViolations
   nubbeprop:numberOfH-bondAcceptors
   nubbeprop:numberOfH-bondDonors
   nubbeprop:numberOfRotableBonds
-  nubbeprop:hasMolecularVolume
-  nubbeprop:hasCollectionSite
-  nubbeprop:hasBiologicalActivity
-  nubbeprop:hasOrigin
-  nubbeprop:hasCollectionSpecie
+  nubbeprop:molecularVolume
+  nubbeprop:doi
+  nubbeprop:biologicalActivity
+  nubbeprop:collectionSpecie
+  nubbeprop:collectionSite
+  nubbeprop:collectionType
