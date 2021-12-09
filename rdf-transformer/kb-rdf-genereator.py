@@ -73,7 +73,7 @@ for row in csvreader:
                     rows.append("<" + config['namespaces']['nubberesource'] + row[0] + ">" 
                         + ' <' + config['namespaces'][config['mappings'].split(' ')[16].split(':')[0]]
                         + config['mappings'].split(' ')[16].split(':')[1] + '>'
-                        + ' "' + specie + '"@en'
+                        + ' "' + specie + '"'
                         + ' .')
                     if(len(specieLoc) > 1):
                         location = specieLoc[1].replace(']', '').strip()
