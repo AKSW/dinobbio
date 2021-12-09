@@ -24368,7 +24368,6 @@
 <http://nubbe.db/2520> <http://nubbe.db/property/smile> "C(C=C)C12C(C)C(C(C1=O)C(=O)C(C2)OC)c1cc(OC)c(cc1)O" .
 <http://nubbe.db/2521> <http://nubbe.db/property/code> "2521" .
 <http://nubbe.db/2521> <http://nubbe.db/property/smile> "C(C=C)[C@@]12[C@H](C)[C@H]([C@H](C1=O)C(=O)C(=C2)OC)c1cc(OC)c(cc1)O" .
-<http://nubbe.db/NuBBE Code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://nubbe.db/Class> .
 <http://nubbe.db/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://nubbe.db/AromaticDerivatives> .
 <http://nubbe.db/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://nubbe.db/AromaticAcid> .
 <http://nubbe.db/3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://nubbe.db/AromaticAcid> .
@@ -26495,7 +26494,6 @@
 <http://nubbe.db/2519> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://nubbe.db/Lignoids> .
 <http://nubbe.db/2520> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://nubbe.db/Lignoids> .
 <http://nubbe.db/2521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://nubbe.db/Lignoids> .
-<http://nubbe.db/NuBBE Code> <http://nubbe.db/property/doi> "Reference(s) (Species, Local, Type)" .
 <http://nubbe.db/1> <http://nubbe.db/property/doi> "10.1016/j.biortech.2010.01.041" .
 <http://nubbe.db/1> <http://nubbe.db/property/biologicalActivity> "Inhibition of Protease"@en .
 <http://nubbe.db/1> <http://nubbe.db/property/biologicalActivity> "Antiviral"@en .

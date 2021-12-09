@@ -27,6 +27,7 @@ file.close()
 
 file = open("./rdf-transformer/nubbe.csv")
 csvreader = csv.reader(file)
+next(csvreader)
 # Generating classes
 for row in csvreader:
     if(row[3]):
@@ -43,6 +44,7 @@ file.close()
 
 file = open("./rdf-transformer/nubbe.csv")
 csvreader = csv.reader(file)
+next(csvreader)
 # Generating classes
 
 for row in csvreader:
