@@ -14,18 +14,6 @@
     <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-06</dc:modified>
     <owl:versionInfo>SNAPSHOT</owl:versionInfo>
     <dc:publisher>NUBBE</dc:publisher>
-    <cc:license>
-      <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-nd/3.0/">
-        <rdfs:label>Creative Commons Attribution No-Commercial No-Derives 4.0 International</rdfs:label>
-      </rdf:Description>
-    </cc:license>
-
-    <dc:creator>
-      <foaf:Person rdf:about="https://aksw.org/EdgardMarx">
-        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
-        <foaf:name>Edgard Marx</foaf:name>
-      </foaf:Person>
-    </dc:creator>
   </owl:Ontology>
 
 </rdf:RDF>
