@@ -26,14 +26,6 @@
         <foaf:name>Edgard Marx</foaf:name>
       </foaf:Person>
     </dc:creator>
-
-    <void:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
-    <void:vocabulary rdf:resource="http://purl.org/vocab/vann/"/>
-    <void:vocabulary rdf:resource="http://creativecommons.org/ns"/>
-    <void:vocabulary rdf:resource="http://www.w3.org/2002/07/owl#"/>
-    <void:vocabulary rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
-    <void:vocabulary rdf:resource="http://rdfs.org/ns/void#"/>
   </owl:Ontology>
 
 </rdf:RDF>
