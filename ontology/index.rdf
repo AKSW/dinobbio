@@ -15,7 +15,6 @@
     <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-06</dc:issued>
     <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-06</dc:modified>
     <owl:versionInfo>SNAPSHOT</owl:versionInfo>
-    <dc:rights>Copyright © 2022 NUBBE</dc:rights>
     <dc:publisher>NUBBE</dc:publisher>
     <cc:license>
       <rdf:Description rdf:about="https://creativecommons.org/licenses/by-nc-nd/3.0/">
@@ -38,33 +37,5 @@
     <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
     <void:vocabulary rdf:resource="http://rdfs.org/ns/void#"/>
   </owl:Ontology>
-
-  <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#license">
-    <rdfs:isDefinedBy rdf:resource="http://creativecommons.org/ns"/>
-  </owl:AnnotationProperty>
-
-  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-  </owl:AnnotationProperty>
-
-  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator">
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-  </owl:AnnotationProperty>
-
-  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued">
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-  </owl:AnnotationProperty>
-
-  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified">
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-  </owl:AnnotationProperty>
-
-  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/rights">
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-  </owl:AnnotationProperty>
-
-  <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher">
-    <rdfs:isDefinedBy rdf:resource="http://purl.org/dc/terms/"/>
-  </owl:AnnotationProperty>
 
 </rdf:RDF>
