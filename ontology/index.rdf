@@ -4,12 +4,11 @@
          xmlns:dc="http://purl.org/dc/terms/"
          xmlns:cc="http://creativecommons.org/ns#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/"
-         xmlns:void="http://rdfs.org/ns/void#"
-         xmlns:ns0="http://purl.org/vocab/vann/">
+         xmlns:void="http://rdfs.org/ns/void#">
 
   <owl:Ontology rdf:about="http://nubbe.db/">
     <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
-    <rdfs:label xml:lang="en">NUBBE: The NUBBE DB Ontology</rdfs:label>
+    <rdfs:label xml:lang="en">NUBBE The NUBBE DB Ontology</rdfs:label>
     <rdfs:comment xml:lang="en">The NUBBE biochemichal knowledge graph vocabulary.</rdfs:comment>
     <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-06</dc:issued>
     <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-06</dc:modified>
