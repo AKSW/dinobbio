@@ -13,14 +13,13 @@
     <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-06</dc:issued>
     <dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-06</dc:modified>
     <owl:versionInfo>SNAPSHOT</owl:versionInfo>
-    <dc:publisher>NUBBE</dc:publisher>
-           
-     <dc:creator>
-      <foaf:Person rdf:about="https://aksw.org/EdgardMarx">
-        <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
-        <foaf:name>Edgard Marx</foaf:name>
-      </foaf:Person>
-    </dc:creator>
+    <dc:publisher>NUBBE</dc:publisher> 
+    <dc:creator>https://aksw.org/EdgardMarx</dc:creator>
   </owl:Ontology>
+         
+  <foaf:Person rdf:about="https://aksw.org/EdgardMarx">
+         <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+         <foaf:name>Edgard Marx</foaf:name>
+  </foaf:Person>
 
 </rdf:RDF>
