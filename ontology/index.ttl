@@ -598,13 +598,13 @@ nubbeprop:biologicalActivity rdf:type owl:DatatypeProperty;
                    rdfs:comment "The value of the mapping."@en ;
                    rdfs:label "biological activity"@en .
 
-nubbeprop:origin rdf:type owl:DatatypeProperty;
+nubbeprop:collectionType rdf:type owl:DatatypeProperty;
                    rdfs:domain :ChemicalCompound ;
                    rdfs:range xsd:string ;
                    rdfs:isDefinedBy : ;
                    dct:issued "2021-12-06"^^xsd:date ;
-                   rdfs:comment "The origin of the molecule."@en ;
-                   rdfs:label "origin"@en .
+                   rdfs:comment "The type of the collection."@en ;
+                   rdfs:label "collection type"@en .
 
 nubbeprop:collectionSpecie rdf:type owl:DatatypeProperty;
                    rdfs:domain :ChemicalCompound ;
@@ -612,7 +612,7 @@ nubbeprop:collectionSpecie rdf:type owl:DatatypeProperty;
                    rdfs:isDefinedBy : ;
                    dct:issued "2021-12-06"^^xsd:date ;
                    rdfs:comment "The name living specie where the molecule is reported to be found."@en ;
-                   rdfs:label "collections specie"@en .
+                   rdfs:label "collection specie"@en .
 
 nubbeprop:doi rdf:type owl:DatatypeProperty;
                    rdfs:domain :ChemicalCompound ;
