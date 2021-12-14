@@ -12,13 +12,13 @@
 @prefix voaf: <http://purl.org/vocommons/voaf#> .
 
 : rdf:type owl:Ontology , voaf:Vocabulary ;
-  rdfs:label "NUBBE: The NUBBE DB Ontology"@en ;
-  rdfs:comment "The NUBBE biochemichal knowledge graph vocabulary."@en ;
+  rdfs:label "NuBBE: The NuBBE DB Ontology"@en ;
+  rdfs:comment "The NuBBE biochemical knowledge graph vocabulary."@en ;
   dct:issued "2021-12-06"^^xsd:date ;
   dct:modified "2021-12-06"^^xsd:date ;
   owl:versionInfo "SNAPSHOT" ;
-  dct:rights "Copyright © 2022 NUBBE" ;
-  dct:publisher "NUBBE" ;
+  dct:rights "Copyright © 2022 NuBBE" ;
+  dct:publisher "NuBBE" ;
   <http://creativecommons.org/ns#license> <https://creativecommons.org/licenses/by-nc-nd/3.0/> ;
   dct:creator <https://aksw.org/EdgardMarx> ;
   void:vocabulary

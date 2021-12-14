@@ -19,8 +19,8 @@
         <dct:creator rdf:resource="https://aksw.org/EdgardMarx"/>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-06</dct:issued>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-12-06</dct:modified>
-        <dct:publisher>NUBBE</dct:publisher>
-        <dct:rights>Copyright © 2022 NUBBE</dct:rights>
+        <dct:publisher>NuBBE</dct:publisher>
+        <dct:rights>Copyright © 2022 NuBBE</dct:rights>
         <vann:preferredNamespacePrefix>nubbe</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>nubbe/</vann:preferredNamespaceUri>
         <void:vocabulary rdf:resource="http://creativecommons.org/ns"/>
@@ -30,8 +30,8 @@
         <void:vocabulary rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
         <void:vocabulary rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
         <void:vocabulary rdf:resource="http://www.w3.org/2002/07/owl#"/>
-        <rdfs:comment xml:lang="en">The NUBBE biochemichal knowledge graph vocabulary.</rdfs:comment>
-        <rdfs:label xml:lang="en">NUBBE: The NUBBE DB Ontology</rdfs:label>
+        <rdfs:comment xml:lang="en">The NuBBE biochemical knowledge graph vocabulary.</rdfs:comment>
+        <rdfs:label xml:lang="en">NuBBE: The NuBBE DB Ontology</rdfs:label>
         <owl:versionInfo>SNAPSHOT</owl:versionInfo>
     </owl:Ontology>
     
