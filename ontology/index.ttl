@@ -77,8 +77,8 @@
 
 :Phenylpropanoid rdf:type owl:Class ;
   rdfs:subClassOf	:ChemicalCompound ;
-  rdfs:label "Phenylpropanoids"@en ;
-  rdfs:comment "A Phenylpropanoids."@en ;
+  rdfs:label "Phenylpropanoid"@en ;
+  rdfs:comment "A Phenylpropanoid."@en ;
   rdfs:isDefinedBy : ;
   dct:issued "2021-12-07"^^xsd:date ;
 .
@@ -125,8 +125,8 @@
 
 :Alkaloid rdf:type owl:Class ;
   rdfs:subClassOf	:ChemicalCompound ;
-  rdfs:label "Alkaloids"@en ;
-  rdfs:comment "A Alkaloids."@en ;
+  rdfs:label "Alkaloid"@en ;
+  rdfs:comment "A Alkaloid."@en ;
   rdfs:isDefinedBy : ;
   dct:issued "2021-12-07"^^xsd:date ;
 .
@@ -181,16 +181,16 @@
 
 :Steroid rdf:type owl:Class ;
   rdfs:subClassOf :Terpene;
-  rdfs:label "Steroids"@en ;
-  rdfs:comment "A Steroids."@en ;
+  rdfs:label "Steroid"@en ;
+  rdfs:comment "A Steroid."@en ;
   rdfs:isDefinedBy : ;
   dct:issued "2021-12-07"^^xsd:date ;
 .
 
 :Polyketide rdf:type owl:Class ;
   rdfs:subClassOf	:ChemicalCompound ;
-  rdfs:label "Polyketides"@en ;
-  rdfs:comment "A Polyketides."@en ;
+  rdfs:label "Polyketide"@en ;
+  rdfs:comment "A Polyketide."@en ;
   rdfs:isDefinedBy : ;
   dct:issued "2021-12-07"^^xsd:date ;
 .
