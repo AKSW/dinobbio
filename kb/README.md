@@ -17,7 +17,7 @@ Default Web Client: http://localhost:8080
 
 #### 2) Jar
 
-* Download KBox jar file here: https://github.com/AKSW/KBox
+* Download KBox jar file here: https://github.com/AKSW/KBox/releases/download/v0.0.2-alpha/kbox-v0.0.2-alpha.jar
 
 * Execute:
 ```
