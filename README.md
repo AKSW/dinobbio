@@ -14,4 +14,4 @@ Further NuBBE knowledge base and ontology documentation can be found here: [http
 
 `rdf-transformer` is available as open source under the terms of the MIT License.
 
-NuBBE knowledge graph is available under the license Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0). Which allows the use of the data only on its current form.
+NuBBE knowledge graph (``kb`` and ``ontology``) is available under the license Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0). Which allows the use of the data only on its current form.
